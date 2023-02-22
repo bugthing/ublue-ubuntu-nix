@@ -3,9 +3,9 @@ ARG UBLUE_UBUNTU_VERSION=latest
 FROM ghcr.io/ublue-os/ubuntu:${UBLUE_UBUNTU_VERSION}
 
 COPY etc /etc
-COPY usr /usr
 
-RUN systemctl enable nix.mount && \
+RUN rpm-ostree install stow && \
+  systemctl enable nix.mount && \
   ostree container commit
 
 RUN echo -e "\nnix:\n" \
