@@ -1,7 +1,7 @@
 name: build-ublue
 on:
   schedule:
-    - cron:  '21 45 * * 1'
+    - cron: '45 21 * * 1'
   pull_request:
     branches:
       - main
