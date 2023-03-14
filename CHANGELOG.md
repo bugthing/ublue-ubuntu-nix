@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/bugthing/ublue-ubuntu-nix/compare/v1.0.0...v1.1.0) (2023-03-14)
+
+
+### Features
+
+* regenerate the consign key pair ([188255d](https://github.com/bugthing/ublue-ubuntu-nix/commit/188255d2d8ea95c558d1d7c365fa91c8a9e470c4))
+
 ## 1.0.0 (2023-02-22)
 
 
